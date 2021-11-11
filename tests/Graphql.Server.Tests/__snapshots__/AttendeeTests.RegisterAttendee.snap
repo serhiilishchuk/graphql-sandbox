@@ -1,0 +1,20 @@
+﻿{
+  "errors": [
+    {
+      "message": "The specified input object field \u0060emailAddress\u0060 does not exist.",
+      "locations": [
+        {
+          "line": 5,
+          "column": 21
+        }
+      ],
+      "path": [
+        "registerAttendee"
+      ],
+      "extensions": {
+        "field": "emailAddress",
+        "specifiedBy": "http://spec.graphql.org/June2018/#sec-Input-Object-Field-Names"
+      }
+    }
+  ]
+}

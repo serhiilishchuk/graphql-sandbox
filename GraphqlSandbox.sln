@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphql.Server", "source\Graphql.Server\Graphql.Server.csproj", "{6F554E3D-7760-4312-9021-0FD2327B2C9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{047AB817-502B-4571-82E0-92B7577A3421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphql.Server.Tests", "tests\Graphql.Server.Tests\Graphql.Server.Tests.csproj", "{9488B141-6894-4AF2-8579-3F32FE61D45F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F554E3D-7760-4312-9021-0FD2327B2C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F554E3D-7760-4312-9021-0FD2327B2C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F554E3D-7760-4312-9021-0FD2327B2C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F554E3D-7760-4312-9021-0FD2327B2C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9488B141-6894-4AF2-8579-3F32FE61D45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9488B141-6894-4AF2-8579-3F32FE61D45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9488B141-6894-4AF2-8579-3F32FE61D45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9488B141-6894-4AF2-8579-3F32FE61D45F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9488B141-6894-4AF2-8579-3F32FE61D45F} = {047AB817-502B-4571-82E0-92B7577A3421}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62359059-BA9F-4168-ADB7-E1116740353C}
+	EndGlobalSection
+EndGlobal
